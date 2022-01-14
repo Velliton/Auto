@@ -1,0 +1,19 @@
+$(document).ready(function(){
+	if($('.slider-body').length>0){
+	$('.slider-body').slick({
+		dots:true,
+		arrows:false,
+		accessibility:false,
+		slidesToShow:1,
+		autoplaySpeed:3000,
+		adaptiveHeight:true,
+		autoplay:true,
+		nextArrow:'',
+		prevArrow:'',
+		responsive:[{
+			breakpoint:768,
+			settings:{}
+		}]
+	});	
+}
+})
